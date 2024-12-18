@@ -101,3 +101,19 @@ NestedLoop: // Label
     
     break MainLoop;
 }
+
+console.log("-".repeat(20));
+console.log("5- Loop For Advanced Examples");
+console.log("-".repeat(20));
+
+console.log(products);
+
+console.log("Products afte loop :- ");
+
+let i = 0;
+for (;;) {
+    console.log(`# ${products[i]}`);
+    i += 2;
+    if (i === products.length) break;
+}
+
