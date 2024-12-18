@@ -71,7 +71,7 @@ console.log("-".repeat(20));
 console.log("4- Loop Control – Continue, Break, Label");
 console.log("-".repeat(20));
 
-
+//["IPhone", "Google Pixel", "Samsung", "Oppo", "OnePlus", "Xaomi"]
 console.log("Products :- ");
 
 MainLoop: // Label
@@ -106,7 +106,7 @@ console.log("-".repeat(20));
 console.log("5- Loop For Advanced Examples");
 console.log("-".repeat(20));
 
-console.log(products);
+console.log(products); //["IPhone", "Google Pixel", "Samsung", "Oppo", "OnePlus", "Xaomi"]
 
 console.log("Products afte loop :- ");
 
@@ -121,9 +121,22 @@ console.log("-".repeat(20));
 console.log("6- Loop – While");
 console.log("-".repeat(20));
 
-let index = 0;
+let index = 0; //["IPhone", "Google Pixel", "Samsung", "Oppo", "OnePlus", "Xaomi"]
 while (index < products.length) {
     console.log(products[index])
     index++;
 }
 
+console.log("-".repeat(20));
+console.log("6- Loop – Do / While");
+console.log("-".repeat(20));
+
+let j = 0; //["IPhone", "Google Pixel", "Samsung", "Oppo", "OnePlus", "Xaomi"]
+
+do {
+    console.log(`${j} - ${products[j]}`)
+    j++;
+}
+while (j < products.length) {
+    console.log(`${j} - ${products[j]}`)
+}
