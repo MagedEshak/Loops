@@ -181,11 +181,3 @@ for (; st < mix.length; st++) {
 3
 4
 */
-
-/*
-    Array Challenge
-*/
-
-console.log("---------------------");
-console.log("-- Array Challenge --");
-console.log("---------------------");
