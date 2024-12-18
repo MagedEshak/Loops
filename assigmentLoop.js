@@ -52,24 +52,24 @@ for (let i = ten; i >= stop; i--) {
 // // 04
 // // 03
 
-// console.log("----------------------");
-// console.log("-- التكليف 03 --");
-// console.log("----------------------");
-// let indexer = 1
-// let theEnd = 6;
-// let breaker = 2
+console.log("----------------------");
+console.log("-- التكليف 03 --");
+console.log("----------------------");
+let indexer = 1
+let theEnd = 6;
+let breaker = 2
 
-// for (let i = indexer; i <= theEnd; i++){
+for (let i = indexer; i <= theEnd; i++){
 
-//     console.log(i);
+    console.log(i);
     
-//     for (let j = breaker; j <= theEnd; j += breaker) {
-//         console.log(`-- ${j}`);
-//         if (j - breaker) {
-//             break;
-//         }
-//     }
-// }
+    for (let j = breaker; j <= theEnd; j += breaker) {
+        console.log(`-- ${j}`);
+        if (j - breaker) {
+            break;
+        }
+    }
+}
 /**
  * لازم نعرف متغيرات يتم تخزين القيم الجديدة فيها
  * زي  i , j
