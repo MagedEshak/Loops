@@ -8,7 +8,7 @@ console.log("-".repeat(20));
 console.log("2- Looping On Sequences");
 console.log("-".repeat(20));
 
-let myFriends = ["Maged", "Eshak", "Sadek", 1, 6,"Mariam","Viola",481]
+let myFriends = ["Maged", "Eshak", "Sadek", 1, 6, "Mariam", "Viola", 481];
 let onlyNumber = [];
 let onlyString = [];
 
@@ -47,22 +47,22 @@ let products = ["IPhone", "Google Pixel", "Samsung", "Oppo", "OnePlus", "Xaomi"]
 let colors = ["Black", "White", "Green", "Red"];
 let models = [2023, 2024, 2025];
 
+console.log("Produts :- ");
 for (let i = 0; i < products.length; i++){
-    console.log("= Produts :- ");
     console.log("#".repeat(20));
-    console.log(products[i]);
+    console.log(`# ${products[i]}`);
     console.log("#".repeat(20));
 
+    console.log("Colors :- ");
+
     for (let j = 0; j < colors.length; j++) {
-        console.log("= Colors :- ");
-        console.log("#".repeat(20));
-        console.log(colors[j]);
-        console.log("#".repeat(20));
+        
+        console.log(`- ${colors[j]}`);
+        
     }
+    console.log("Models :- ");
+
     for (let m = 0; m < models.length; m++) {
-        console.log("= Models :- ");
-        console.log("#".repeat(20));
-        console.log(colors[m]);
-        console.log("#".repeat(20));
+        console.log(`- ${models[m]}`);
     }  
 }
