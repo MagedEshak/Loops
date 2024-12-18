@@ -47,7 +47,7 @@ let products = ["IPhone", "Google Pixel", "Samsung", "Oppo", "OnePlus", "Xaomi"]
 let colors = ["Black", "White", "Green", "Red"];
 let models = [2023, 2024, 2025];
 
-console.log("Produts :- ");
+console.log("Products :- ");
 for (let i = 0; i < products.length; i++){
     console.log("#".repeat(20));
     console.log(`# ${products[i]}`);
@@ -65,4 +65,39 @@ for (let i = 0; i < products.length; i++){
     for (let m = 0; m < models.length; m++) {
         console.log(`- ${models[m]}`);
     }  
+}
+
+console.log("-".repeat(20));
+console.log("4- Loop Control – Continue, Break, Label");
+console.log("-".repeat(20));
+
+
+console.log("Products :- ");
+
+MainLoop: // Label
+for (let i = 0; i < products.length; i++){
+    console.log("#".repeat(20));
+    console.log(`# ${products[i]}`);
+    console.log("#".repeat(20));
+
+    console.log("Colors :- ");
+
+NestedLoop: // Label
+    for (let j = 0; j < colors.length; j++) {
+        console.log(`- ${colors[j]}`);
+        if (colors[j] === "White") {
+            break;        
+        }
+        
+    }
+    console.log("Models :- ");
+
+    for (let m = 0; m < models.length; m++) {
+        console.log(`- ${models[m]}`);
+        if (models[m] === 2021) {
+            continue;        
+        }
+    }
+    
+    break MainLoop;
 }
