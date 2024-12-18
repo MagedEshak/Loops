@@ -26,21 +26,21 @@ for (; start <= end; start += 10){
 // 90
 // 100
 
-// console.log("----------------------");
-// console.log("-- التكليف 02 --");
-// console.log("----------------------");
+console.log("----------------------");
+console.log("-- التكليف 02 --");
+console.log("----------------------");
 
-// let ten = 10;
-// let zero = 0;
-// let stop = 3;
-// for (let i = ten; i >= stop; i--) {
-//     if (i === ten) {
-//         console.log(`${i}`);
-//     }
-//     else {
-//         console.log(`${zero}${i}`);
-//     }
-// }
+let ten = 10;
+let zero = 0;
+let stop = 3;
+for (let i = ten; i >= stop; i--) {
+    if (i === ten) {
+        console.log(`${i}`);
+    }
+    else {
+        console.log(`${zero}${i}`);
+    }
+}
 
 // // Output
 // // 10
