@@ -110,23 +110,87 @@ for (;;) {
 }
 
 /* Output
-10
-8
-6
-4
+    10
+    8
+    6
+    4
 */
 
 console.log("----------------------");
 console.log("-- التكليف 05 --");
 console.log("----------------------");
 
+let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+let letter = "a";
+
+for (let i = 1; i < friends.length; i++){
+    
+    if (letter.toUpperCase() === friends[i][0]) {
+        friends.shift();
+    }
+    console.log(`"${i}=> ${friends[i]}"`);
+}
+
+/* Output
+"1 => Sayed"
+"2 => Eman"
+"3 => Mahmoud"
+"4 => Osama"
+"5 => Sameh"
+*/
+
 console.log("----------------------");
 console.log("-- التكليف 06 --");
 console.log("----------------------");
 
+let s = 0;
+let swappedName = "elZerO";
+let result = "";
+
+for (; s < swappedName.length; s++) {
+    let char = swappedName[s];
+    if (char === char.toUpperCase()) {
+
+        result += char.toLowerCase();
+    } else {
+
+        result += char.toUpperCase();
+
+    }
+}
+
+console.log(result); // Output: "ELzERo"
+
+console.log("----------------------");
+console.log("-- التكليف 07 --");
+console.log("----------------------");
+
+let st = 0;
+let mix = [1, 2, 3, "A", "B", "C", 4];
+let num = [];
+for (; st < mix.length; st++) {
+    if (typeof mix[st] === "number") {
+        num.push(mix[st]);
+        for (; st < num.length; st++) {
+            if (mix[st] === st) {
+                continue;
+            }
+        }
+    
+    }
+    
+}
+console.log(num); 
+
+/*Output
+2
+3
+4
+*/
 /*
     Array Challenge
 */
+
 console.log("---------------------");
 console.log("-- Array Challenge --");
 console.log("---------------------");
