@@ -171,22 +171,17 @@ let num = [];
 for (; st < mix.length; st++) {
     if (typeof mix[st] === "number") {
         num.push(mix[st]);
-        for (; st < num.length; st++) {
-            if (mix[st] === st) {
-                continue;
-            }
-        }
-    
     }
-    
 }
-console.log(num); 
+    num.shift();
+    console.log(`${num}`); 
 
 /*Output
 2
 3
 4
 */
+
 /*
     Array Challenge
 */
