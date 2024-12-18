@@ -140,3 +140,4 @@ do {
 while (j < products.length - 1) {
     console.log(`${j} - ${products[j]}`)
 }
+
