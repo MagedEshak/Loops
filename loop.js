@@ -117,3 +117,13 @@ for (;;) {
     if (i === products.length) break;
 }
 
+console.log("-".repeat(20));
+console.log("6- Loop – While");
+console.log("-".repeat(20));
+
+let index = 0;
+while (index < products.length) {
+    console.log(products[index])
+    index++;
+}
+
