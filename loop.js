@@ -137,6 +137,6 @@ do {
     console.log(`${j} - ${products[j]}`)
     j++;
 }
-while (j < products.length) {
+while (j < products.length - 1) {
     console.log(`${j} - ${products[j]}`)
 }
