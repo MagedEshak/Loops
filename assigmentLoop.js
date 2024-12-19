@@ -186,6 +186,29 @@ for (; st < mix.length; st++) {
     Array Challenge
 */
 
+console.log("----------------------");
+console.log("-- التكليف 08 --");
+console.log("----------------------");
+let friendss = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+let indexx = false + false; // تبدأ بـ 0
+let counter = false + false; // تبدأ بـ 0
+
+while (indexx < friendss.length) {
+    if (
+        typeof friendss[indexx] !== "number" && // استبعاد الأرقام
+        !friendss[indexx].startsWith("A") // استبعاد الأسماء التي تبدأ بـ A
+    ) {
+        counter += true; // زيادة العداد بمقدار 1
+        console.log(`${counter} => ${friendss[indexx]}`);
+    }
+    indexx += true; // زيادة الفهرس بمقدار 1
+}
+
+/* Output
+"1 => Sayed"
+"2 => Mahmoud"
+*/
+
 console.log("---------------------");
 console.log("-- Array Challenge --");
 console.log("---------------------");
