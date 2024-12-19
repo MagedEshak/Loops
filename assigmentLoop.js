@@ -189,6 +189,9 @@ for (; st < mix.length; st++) {
 console.log("----------------------");
 console.log("-- التكليف 08 --");
 console.log("----------------------");
+
+// chat gpt answer
+
 let friendss = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
 let indexx = false + false; // تبدأ بـ 0
 let counter = false + false; // تبدأ بـ 0
